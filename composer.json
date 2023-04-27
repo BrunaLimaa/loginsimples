@@ -1,0 +1,31 @@
+{
+    "name": "brunalimaa/loginsimples",
+    "description": "Login Simples usando PHP e Laravel",
+    "minimum-stability": "stable",
+    "authors": [
+      {
+        "name": "Bruna Lima",
+        "email": "brunarblima93@gmail.com",
+        "homepage": "https://github.com/BrunaLimaa",
+        "role": "Developer"
+      }
+    ],
+    "config": {
+      "vendor-dir": "vendor"
+    },
+    "autoload": {
+      "psr-4": {
+        "Source\\": "source/"
+      },
+      "files": [
+        "source/Boot/Config.php",
+        "source/Boot/Helpers.php"
+      ]
+    },
+    "require": {
+      "dompdf/dompdf": "^2.0",
+      "coffeecode/router": "1.0.8",
+     "coffeecode/uploader": "1.0.11",
+      "league/plates": "v3.4.0"
+    }
+  }
