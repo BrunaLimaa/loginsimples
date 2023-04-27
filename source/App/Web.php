@@ -15,6 +15,7 @@ class Web
     }
 
     public function home() : void
+    
     {
 
         echo $this->view->render("register");
